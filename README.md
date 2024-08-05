@@ -123,3 +123,20 @@ Body:
     }
 }
 ```
+### Run the application
+```
+mvn spring-boot:run
+```
+
+### Create Jar File
+```
+mvn clean package -DskipTests
+```
+
+### Build and Deployment Using Docker
+```
+cd project directory
+sh ./deployment/deploy.sh
+```
+### Test
+#### All the test case are found under test folder for spring boot application.
